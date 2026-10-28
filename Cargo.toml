@@ -1,0 +1,13 @@
+[package]
+name = "kalavirasat_ai"
+version = "0.1.0"
+edition = "2021"
+description = "KalaVirasat AI: Sovereign Cultural Heritage Preservation, Antique Provenance and Certified Museum Digital Twins"
+license = "Apache-2.0"
+
+[dependencies]
+candid = "0.10"
+serde = { version = "1.0", features = ["derive"] }
+
+[lib]
+crate-type = ["cdylib", "lib"]
